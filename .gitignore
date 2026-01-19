@@ -1,0 +1,64 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+build_venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Runtime files
+*.log
+*.pid
+
+# Cache files
+hash_cache.json
+client_config.json
+
+# Old clients folder (deprecated - use client/)
+clients/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Temp files
+*.tmp
+*.temp

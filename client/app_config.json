@@ -1,0 +1,15 @@
+{
+  "server_url": "",
+  "monitored_paths": [],
+  "exclusion_patterns": [
+    "*.log",
+    "*.tmp",
+    "*.temp",
+    "__pycache__",
+    ".git",
+    ".venv",
+    "node_modules"
+  ],
+  "autostart": false,
+  "minimize_to_tray": false
+}

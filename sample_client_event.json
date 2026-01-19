@@ -1,0 +1,114 @@
+{
+  "id": 370,
+  "client_id": 28,
+  "path": "C:/Users/orxan/OneDrive/Desktop/media/media/ae yene salam x7.txt",
+  "initial_hash": "unknown",
+  "current_hash": "fb95c937704ea5369f859e90811cea33",
+  "alert_type": "created",
+  "timestamp": "2025-12-17T21:38:13.798899Z",
+
+  "file_size": 94,
+  "file_extension": ".txt",
+  "magic_bytes": "6664732e6b6a67656c720d0a7a642e66",
+  "detected_file_type": null,
+  "magic_byte_mismatch": false,
+
+  "entropy": 4.1767,
+  "high_entropy": false,
+  "entropy_classification": "Compressed",
+  "entropy_note": "Medium entropy - Likely compressed",
+
+  "owner_user": "REDREAPER\\orxan",
+  "owner_user_id": "PySID:S-1-5-21-1773138898-1527758274-1916242380-1001",
+  "owner_group": "REDREAPER\\orxan",
+  "owner_group_id": "PySID:S-1-5-21-1773138898-1527758274-1916242380-1001",
+  "owner_domain": "REDREAPER",
+  "permissions": "0o666",
+
+  "actor_user": "orxan",
+  "actor_user_id": "orxan",
+  "actor_session_id": "16220",
+  "actor_privilege_level": "admin",
+  "actor_domain": "REDREAPER",
+
+  "process_name": "FIMonacci_Agent.exe",
+  "process_id": "16220",
+  "process_user": "REDREAPER\\orxan",
+  "parent_process_id": "16044",
+  "parent_process_name": "FIMonacci_Agent.exe",
+
+  "file_created_at": "2025-12-11T08:23:14.532049Z",
+  "file_modified_at": "2025-12-18T00:36:06.478593Z",
+  "file_accessed_at": "2025-12-18T01:38:12.885394Z",
+
+  "is_pii": false,
+  "pii_types": null,
+  "content_hash_only": false,
+  "is_hidden": false,
+
+  "client_hostname": "RedReaper",
+  "client_id_str": "ftxNFRZmN4MEsXTuL-nKqPC_dj2AYqG-IObn-_qQT4I",
+
+  "process_tree": [
+    {
+      "pid": 16220,
+      "name": "FIMonacci_Agent.exe",
+      "cmdline": "C:\\Users\\orxan\\OneDrive\\Desktop\\FIMonacci\\FIMonacci\\client\\dist\\FIMonacci_Agent.exe",
+      "username": "REDREAPER\\orxan",
+      "create_time": "2025-12-17T18:19:02.653659"
+    },
+    {
+      "pid": 16044,
+      "name": "FIMonacci_Agent.exe",
+      "cmdline": "C:\\Users\\orxan\\OneDrive\\Desktop\\FIMonacci\\FIMonacci\\client\\dist\\FIMonacci_Agent.exe",
+      "username": "REDREAPER\\orxan",
+      "create_time": "2025-12-17T18:18:59.455916"
+    }
+  ],
+
+  "auth_logs": [
+    {
+      "event_id": 4624,
+      "time": "2025-12-18T01:36:46",
+      "source": "Microsoft-Windows-Security-Auditing",
+      "type": "logon_success"
+    },
+    {
+      "event_id": 4624,
+      "time": "2025-12-18T01:34:41",
+      "source": "Microsoft-Windows-Security-Auditing",
+      "type": "logon_success"
+    }
+  ],
+
+  "security_logs": [
+    {
+      "event_id": 4672,
+      "time": "2025-12-18T01:36:46",
+      "source": "Microsoft-Windows-Security-Auditing",
+      "category": 12548
+    },
+    {
+      "event_id": 4624,
+      "time": "2025-12-18T01:36:46",
+      "source": "Microsoft-Windows-Security-Auditing",
+      "category": 12544
+    },
+    {
+      "event_id": 4672,
+      "time": "2025-12-18T01:34:41",
+      "source": "Microsoft-Windows-Security-Auditing",
+      "category": 12548
+    },
+    {
+      "event_id": 4624,
+      "time": "2025-12-18T01:34:41",
+      "source": "Microsoft-Windows-Security-Auditing",
+      "category": 12544
+    }
+  ],
+
+  "event_type": "created",
+  "event_timestamp": "2025-12-17T21:38:12.884328+00:00",
+  "hash_md5": "fb95c937704ea5369f859e90811cea33"
+}

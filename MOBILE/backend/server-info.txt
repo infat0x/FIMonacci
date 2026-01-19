@@ -1,0 +1,62 @@
+========================================
+  FIMonacci Server Connection Info
+========================================
+
+Server IP: 13.62.224.164
+Username: ubuntu
+Password: fimonacci123
+
+SSH Connection:
+ssh ubuntu@13.62.224.164
+
+API Base URL:
+http://13.62.224.164:2828
+
+========================================
+  Useful Commands
+========================================
+
+# Check service status
+sudo systemctl status fimonacci.service
+
+# Restart service
+sudo systemctl restart fimonacci.service
+
+# View logs
+tail -f ~/fimonacci.log
+tail -f ~/fimonacci-error.log
+
+# Stop service
+sudo systemctl stop fimonacci.service
+
+# Start service
+sudo systemctl start fimonacci.service
+
+# Check if port 2828 is listening
+sudo ss -tlnp | grep 2828
+
+# Test API locally
+curl http://localhost:2828/
+
+========================================
+  API Endpoints
+========================================
+
+GET  /                  - API status
+GET  /alerts            - Get recent alerts
+GET  /stats             - Get statistics
+GET  /scanner/status    - Scanner status
+POST /scanner/scan      - Trigger manual scan
+WS   /ws                - WebSocket real-time updates
+
+========================================
+  File Locations
+========================================
+
+Application: ~/main.py
+Virtual Env: ~/fimonacci-venv/
+Service File: /etc/systemd/system/fimonacci.service
+Logs: ~/fimonacci.log
+Error Logs: ~/fimonacci-error.log
+
+========================================
