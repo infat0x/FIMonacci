@@ -59,7 +59,7 @@
 -  **Process Tree Tracking** - Full process hierarchy and actor information
 -  **PII Detection** - Automatic detection of sensitive data (SSN, credit cards, etc.)
 -  **Authentication Logs** - Windows Security Event Log integration (requires admin)
-- ✅ **Security Event Correlation** - Tracks system security events alongside file changes
+-  **Security Event Correlation** - Tracks system security events alongside file changes
 
 ### AI-Powered Analysis
 - ✅ **AI Timeline Analysis** - Mistral/Grok AI analysis of FIM + SIEM data
