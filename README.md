@@ -69,7 +69,7 @@
 -  **Performance Optimized** - Filters data to essential fields (5-15s analysis time)
 
 ### SIEM Integration
-- ✅ **Wazuh Integration** - Query SIEM events by agent IP and timeframe
+-  **Wazuh Integration** - Query SIEM events by agent IP and timeframe
 - ✅ **Event Correlation** - Combine FIM alerts with SIEM data
 - ✅ **Configurable IP Address** - Dynamic agent IP input in UI
 - ✅ **Event Deduplication** - Removes duplicate SIEM events
