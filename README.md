@@ -51,7 +51,7 @@
 -  **Real-time File Monitoring** - Continuous monitoring using watchdog with instant event detection
 -  **MD5 Hash Verification** - Fast integrity checks with automatic mismatch detection
 -  **File Rename Detection** - Single "renamed" event (not delete+create)
-- ✅ **Hidden File Detection** - Detects Windows hidden attribute and Unix dot-files
+-  **Hidden File Detection** - Detects Windows hidden attribute and Unix dot-files
 - ✅ **Magic Byte Analysis** - File type detection and mismatch alerts (bidirectional)
 - ✅ **Entropy Calculation** - Detects encrypted/compressed files (threshold: 7.5 for encryption)
 
