@@ -65,7 +65,7 @@
 -  **AI Timeline Analysis** - Mistral/Grok AI analysis of FIM + SIEM data
 -  **Attack Reconstruction** - Identifies suspicious event sequences
 -  **MITRE ATT&CK Mapping** - Automatic technique identification
-- ✅ **Risk Assessment** - Confidence scoring and severity levels
+-  **Risk Assessment** - Confidence scoring and severity levels
 - ✅ **Performance Optimized** - Filters data to essential fields (5-15s analysis time)
 
 ### SIEM Integration
