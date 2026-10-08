@@ -50,29 +50,29 @@
 ### Core Monitoring
 -  **Real-time File Monitoring** - Continuous monitoring using watchdog with instant event detection
 -  **MD5 Hash Verification** - Fast integrity checks with automatic mismatch detection
-- ✅ **File Rename Detection** - Single "renamed" event (not delete+create)
-- ✅ **Hidden File Detection** - Detects Windows hidden attribute and Unix dot-files
-- ✅ **Magic Byte Analysis** - File type detection and mismatch alerts (bidirectional)
-- ✅ **Entropy Calculation** - Detects encrypted/compressed files (threshold: 7.5 for encryption)
+-  **File Rename Detection** - Single "renamed" event (not delete+create)
+-  **Hidden File Detection** - Detects Windows hidden attribute and Unix dot-files
+-  **Magic Byte Analysis** - File type detection and mismatch alerts (bidirectional)
+-  **Entropy Calculation** - Detects encrypted/compressed files (threshold: 7.5 for encryption)
 
 ### Security Intelligence
-- ✅ **Process Tree Tracking** - Full process hierarchy and actor information
-- ✅ **PII Detection** - Automatic detection of sensitive data (SSN, credit cards, etc.)
-- ✅ **Authentication Logs** - Windows Security Event Log integration (requires admin)
-- ✅ **Security Event Correlation** - Tracks system security events alongside file changes
+-  **Process Tree Tracking** - Full process hierarchy and actor information
+-  **PII Detection** - Automatic detection of sensitive data (SSN, credit cards, etc.)
+-  **Authentication Logs** - Windows Security Event Log integration (requires admin)
+-  **Security Event Correlation** - Tracks system security events alongside file changes
 
 ### AI-Powered Analysis
-- ✅ **AI Timeline Analysis** - Mistral/Grok AI analysis of FIM + SIEM data
-- ✅ **Attack Reconstruction** - Identifies suspicious event sequences
-- ✅ **MITRE ATT&CK Mapping** - Automatic technique identification
-- ✅ **Risk Assessment** - Confidence scoring and severity levels
-- ✅ **Performance Optimized** - Filters data to essential fields (5-15s analysis time)
+-  **AI Timeline Analysis** - Mistral/Grok AI analysis of FIM + SIEM data
+-  **Attack Reconstruction** - Identifies suspicious event sequences
+-  **MITRE ATT&CK Mapping** - Automatic technique identification
+-  **Risk Assessment** - Confidence scoring and severity levels
+-  **Performance Optimized** - Filters data to essential fields (5-15s analysis time)
 
 ### SIEM Integration
-- ✅ **Wazuh Integration** - Query SIEM events by agent IP and timeframe
-- ✅ **Event Correlation** - Combine FIM alerts with SIEM data
-- ✅ **Configurable IP Address** - Dynamic agent IP input in UI
-- ✅ **Event Deduplication** - Removes duplicate SIEM events
+-  **Wazuh Integration** - Query SIEM events by agent IP and timeframe
+-  **Event Correlation** - Combine FIM alerts with SIEM data
+-  **Configurable IP Address** - Dynamic agent IP input in UI
+-  **Event Deduplication** - Removes duplicate SIEM events
 
 ### Modern Admin Dashboard
 - ✅ **Real-time Alerts** - WebSocket-powered live notifications
