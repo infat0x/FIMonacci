@@ -70,7 +70,7 @@
 
 ### SIEM Integration
 -  **Wazuh Integration** - Query SIEM events by agent IP and timeframe
-- ✅ **Event Correlation** - Combine FIM alerts with SIEM data
+-  **Event Correlation** - Combine FIM alerts with SIEM data
 - ✅ **Configurable IP Address** - Dynamic agent IP input in UI
 - ✅ **Event Deduplication** - Removes duplicate SIEM events
 
